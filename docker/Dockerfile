@@ -14,5 +14,5 @@ RUN add-apt-repository \
    $(lsb_release -cs) \
    stable"
 
-RUN apt-get update -y && apt-get install -y docker-ce docker-ce-cli containerd.io
+RUN apt-get update -y && apt-get install -y docker-ce docker-ce-cli containerd.io tree
 RUN pip install --upgrade pip && pip install pytest-testinfra
