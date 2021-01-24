@@ -1,0 +1,8 @@
+---
+# tasks file for ansible-role-fosdem21
+
+# - name: Install boxes
+#   apt:
+#     name: boxes
+#     state: present
+#     update_cache: yes
